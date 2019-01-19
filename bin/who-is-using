@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const program = require("caporal");
+const find = require("../index");
+const pkg = require("../package.json");
+
+program.version(pkg.version).description(pkg.description);
+
+program
+  .argument("<package>", "the package name which you want to find")
+  .action(function(argv) {
+    find(argv.package);
+  });
+
+program.parse(process.argv);
