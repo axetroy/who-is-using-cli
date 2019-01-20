@@ -1,8 +1,10 @@
 {
-  "name": "whoisusing",
+  "name": "who-is-using",
   "version": "1.0.0",
   "description": "find out who is using the package",
-  "bin": "./bin/who-is-using",
+  "bin": {
+    "who-is-using": "./bin/who-is-using"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
