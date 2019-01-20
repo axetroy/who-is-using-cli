@@ -1,5 +1,5 @@
 {
-  "name": "@axetroy/who-is-using",
+  "name": "who-is-using",
   "version": "1.0.0",
   "description": "find out who is using the package",
   "bin": {

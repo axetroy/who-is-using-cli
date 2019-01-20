@@ -1,12 +1,12 @@
 # find out who is using the package
 
 ```bash
-npm install @axetroy/who-is-using -g
+npm install who-is-using -g
 
 who-is-using lodash
 
 # or
-npx @axetroy/who-is-using lodash
+npx who-is-using lodash
 
 ┌─────────────────────────────────────────────┬──────────┬────────────────┬───────────────────────────────────────────────────────────────────────┐
 │ Package                                     │ Version  │ Is Development │ Path                                                                  │
