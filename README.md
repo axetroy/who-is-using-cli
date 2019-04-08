@@ -1,5 +1,7 @@
 # find out who is using the package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/who-is-using-cli.svg)](https://greenkeeper.io/)
+
 ```bash
 npm install who-is-using -g
 
